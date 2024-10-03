@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+</head>
+
+<body>
+<h1>Test du service /api/maths</h1>
+
+<fieldset id="UrlTest">
+    <legend>Url du service</legend>
+    <input type="text" placeholder="Lien du serveur" value="http://localhost:5000">/api/maths
+    <button type="button" id="goTest">Démarrer le test</button>
+    <a href="mathsEndpoint.html"><button type="button" id="help">Aide</button></a>
+</fieldset>
+
+<fieldset id="TestsContainer">
+    <legend>Tests</legend>
+    <!--Afficher les tests via JSON-->
+</fieldset>
+
+<fieldset id="VerdictContainer">
+    <legend>Verdict</legend>
+    <!--Afficher le verdict-->
+</fieldset>
+<script src="js/Maths_API.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="js/siteUI.js"></script>
+</body>
+</html>
